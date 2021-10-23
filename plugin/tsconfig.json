@@ -1,0 +1,55 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es6",
+        "jsx": "react",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noUnusedLocals": false,
+        "removeComments": true,
+        "strictNullChecks": false,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "lib": [
+            "es6",
+            "es7",
+            "dom"
+        ],
+        "baseUrl": "./",
+        "paths": {
+            "@assets/*": [
+                "./src/assets/*"
+            ],
+            "@views/*": [
+                "./src/views/*"
+            ],
+            "@commonModules/*": [
+                "./src/commonModules/*"
+            ],
+            "@globalComponents/*": [
+                "./src/globalComponents/*"
+            ],
+            "@/api": [
+                "./src/api/index"
+            ],
+            "@/mock": [
+                "./src/mock.js"
+            ],
+            "@mock/*": [
+                "./mock/*"
+            ]
+        }
+    },
+    "exclude": [
+        "dist",
+        "buildResult",
+        "node_modules"
+    ]
+}

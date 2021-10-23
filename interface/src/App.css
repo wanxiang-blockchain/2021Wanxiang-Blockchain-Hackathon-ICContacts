@@ -1,0 +1,8 @@
+.Layout {
+  position:relative;
+  text-align: center;
+}
+
+.Content {
+  min-width: 800px;
+}

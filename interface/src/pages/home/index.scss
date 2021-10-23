@@ -1,0 +1,70 @@
+.fullPage-wrapper {
+  .full-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    min-height: 100vh;
+  }
+
+  .SectionA {
+    .logoBlock {
+      width: 23rem;
+    }
+    .mainLogo {
+      width: 13rem;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      padding-top: 5rem;
+      padding-bottom: 2rem;
+      .logo1{
+        width: 5rem;
+        height: 10rem;
+        background: #35D850;
+        border-radius: 2rem;
+      }
+      .logo2{
+        width: 5rem;
+        height: 10rem;
+        background: #99EA3B;
+        border-radius: 2rem;
+      }
+    }
+    .mainTitle {
+      max-width: 640px;
+      font-size: 3rem;
+      line-height: 1;
+      font-weight: 600;
+      margin: 0 auto;
+      margin-top: 1rem;
+      color: #000000;
+    }
+    .mainDes {
+      max-width: 640px;
+      font-size: 1.125rem;
+      margin: 0 auto;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      line-height: 1.75rem;
+      color: #000000;
+    }
+  }
+
+  .SectionB {
+    width: 80%;
+    .description {
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+      max-width: 40rem;
+      margin: 0 auto;
+    }
+    .text {
+      font-size: 2.25rem;
+      color: #000000;
+      font-size: 40px;
+      font-weight: 700;
+      margin: 0 
+    }
+  }
+}

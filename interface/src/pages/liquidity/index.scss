@@ -1,0 +1,62 @@
+.SwapPage {
+  height: 100%;
+  min-height: 100vh;
+  padding-top: 82px;
+  background: rgb(196, 249, 255);
+
+  .addLiquidity {
+    text-align: left;
+    position: relative;
+    margin: 50px 64px;
+    .input{
+      width: 800px;
+      .coinInput {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .coinSelectStyle {
+        width: 900px;
+        margin-right: 10px;
+      }
+    }
+    .stepsStyle{
+      min-width: 800px;
+      margin: 20px 0;
+    }
+    .el-steps{
+      padding-left: 30px;
+      .el-step:nth-last-child(1)[style]{
+        width: 50px !important;
+      }
+    }
+    .buttonList {
+      width: 850px;
+      display: flex;
+      justify-content: space-between;
+      button {
+        font-weight: 600;
+        margin-right: 50px;
+        border-radius: 20px;
+        color: rgba(0, 0, 0, 0.26);
+        background-color: #d7d7d7;
+      }
+      .successButton {
+        color: #FFFFFF;
+        font-weight: 600;
+        background: #35D850;
+        border:1px solid #35D850;
+      }
+    }
+  }
+
+  .showLiquidity {
+    // width: 700px;
+    text-align: left;
+    margin: 0 64px;
+    padding-bottom: 50px;
+    .el-collapse-item__header {
+      text-align: left;
+    }
+  }
+}
